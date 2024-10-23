@@ -1,0 +1,88 @@
+{
+	"Tile": [
+		{
+			"char": "w",
+			"path": "src/resources/Dungeon_wall2.jpg",
+			"is_passable": false,
+			"is_destructible": true
+		},
+		{
+			"char": "f",
+			"path": "src/resources/frozen_wall.png",
+			"is_passable": false,
+			"is_destructible": false
+		},
+		{
+			"char": "_",
+			"path": "src/resources/cell.png",
+			"is_passable": true,
+			"is_destructible": true
+		}
+	],
+	"GravitabeObject": [
+		{
+			"char": "e",
+			"path": "src/resources/explosive.png",
+			"explosion_damage": 3
+		},
+		{
+			"char": "r",
+			"path": "src/resources/rock_type_planet.png"
+		},
+		{
+			"char": "1",
+			"path": "src/resources/coin_1.png",
+			"collect_points": 1
+		},
+		{
+			"char": "2",
+			"path": "src/resources/coin_2.png",
+			"collect_points": 2
+		},
+		{
+			"char": "5",
+			"path": "src/resources/coin_5.png",
+			"collect_points": 5
+		},
+		{
+			"char": "d",
+			"path": "src/resources/diamond.png",
+			"collect_points": 10
+		},
+		{
+			"char": "N",
+			"path": "src/resources/grenade_stack.png",
+			"collect_points": 10,
+			"explosion_damage": 4,
+			"weapon_char": "n",
+			"weapon_count": 6
+		},
+		{
+			"char": "n",
+			"path": "src/resources/grenade.png",
+			"collect_points": 3,
+			"explosion_damage": 2,
+			"weapon_char": "n",
+			"weapon_count": 1
+		},
+		{
+			"char": "m",
+			"path": "src/resources/rocket.png",
+			"collect_points": 3,
+			"explosion_damage": 2,
+			"weapon_char": "m",
+			"weapon_count": 1,
+			"direction": "right"
+		},
+		{
+			"char": "M",
+			"path": "src/resources/rocket-stack.png",
+			"collect_points": 10,
+			"explosion_damage": 4,
+			"weapon_char": "m",
+			"weapon_count": 3
+		},
+
+
+	]
+}
